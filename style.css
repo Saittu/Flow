@@ -35,7 +35,7 @@ body {
     color: #ffffff;
     
     font-size: 3rem;
-    margin-right: 5rem;
+    margin-right: 4.5rem;
 }
 
 .navigation h1 {
@@ -92,6 +92,83 @@ body {
 
 
 .content .text-hight h1 {
-    font-size: 15rem;
-   
+    font-size: 18rem;
+    letter-spacing: 2rem;
+    
+
+    background-image: url("Images/back-text.jpg");
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+
+    margin-left: 55rem;
+    
+}
+
+.content .text-hight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.content .text-hight h1 span{
+    border-right: 1px solid rgb(202, 202, 202);
+    padding-right: 2rem;
+}
+
+
+
+.content .text-hight .icon{
+    display: flex;
+    
+}
+
+
+.content .text-hight .icon .image {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .text-hight .icon a img {
+    padding: 5px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 2rem;
+    margin: 0 0 9.5rem;
+    
+    
+}
+
+.content .text-hight .icon a {
+    height: 5.5rem;
+    width: 1.8rem;
+}
+
+.content .text-hight  h2 {
+    font-size: 5.6rem;
+    margin: 20px 29rem 0 0;
+    font-family: var(--r);
+
+    
+}
+
+.content .text-hight h2 #barra-color,
+.content .text-hight h2 #data-font {
+    color: rgb(141, 140, 140);
+    font-size: 4.6rem;
+}
+
+.content .text-hight h2 #data-font{
+    font-size: 3.2rem;
+}
+
+.content .text-hight  h2::after {
+    content: "";
+    position: absolute;
+    bottom: 110px;
+    right: 10px;
+    transform: translateX(-50%);
+    border-bottom: 1px solid rgb(202, 202, 202);
+    width: 10%;
+
 }
