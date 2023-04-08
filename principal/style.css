@@ -189,8 +189,8 @@ body {
 .content .text-hight  h2::after {
     content: " ";
     position: absolute;
-    bottom: 15.5rem;
-    right: -7.5rem;
+    bottom: 8rem;
+    right: -1.6rem;
     transform: translateX(-50%);
     border-bottom: 2px solid rgb(202, 202, 202);
     width: 10%;
